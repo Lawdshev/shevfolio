@@ -3,7 +3,9 @@ import "./portfolio.css";
 import {Link} from 'react-router-dom';
 import vividioz from '../../Projects/portfolio_img/vivioz.PNG';
 import apple from '../../Projects/portfolio_img/AppleStore.png';
-import university from '../../Projects/portfolio_img/alicia.png'
+import university from '../../assets/examinator.jpeg'
+import hq from '../../Projects/portfolio_img/moneyHq.jpeg'
+import wardboard from '../../assets/wardboard.jpg'
 
 const portfolio = () => {
   return (
@@ -14,24 +16,24 @@ const portfolio = () => {
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <img src={vividioz} alt="" />
+            <img src={hq} alt="" />
           </div>
-          <h3>Vividioz</h3>
+          <h3>MoneyHQ</h3>
           <div className='portfolio__item-cta flex justify-around'>
-          <a href="https://github.com/rash1234567/NEWVIVIDIO" className='btn' target='_blank'>Github</a>
-          <a href="https://vividioz.onrender.com/" className='btn btn-primary' target='_blank'>Live
+          <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="https://dev.moneyhq.io/" className='btn btn-primary' target='_blank'>Live
            Demo</a>
           </div>
         </article>
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <img src={apple} alt="" />
+          <img src={wardboard} alt="" />
           </div>
-          <h3>A'pple</h3>
+          <h3>Wardbord</h3>
           <div className='portfolio__item-cta flex justify-around'>
-          <a href="https://github.com/Lawdshev/Apple" className='btn' target='_blank'>Github</a>
-          <a href="https://majestic-gelato-78453c.netlify.app/" className='btn btn-primary' target='_blank'>Live
+          <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="https://coach.wardbord.com/" className='btn btn-primary' target='_blank'>Live
            Demo</a>
           </div>
         </article>
@@ -40,10 +42,10 @@ const portfolio = () => {
           <div className='portfolio__item-image'>
           <img src={university} alt="" />
           </div>
-          <h3>Alicia University</h3>
+          <h3>Examinator</h3>
           <div className='portfolio__item-cta flex justify-around'>
-          <a href="https://github.com/Lawdshev/Alicia-University" className='btn' target='_blank'>Github</a>
-          <a href="https://aliciauniversity.netlify.app" className='btn btn-primary' target='_blank'>Live
+          <a href="#" className='btn' target='_blank'>Github</a>
+          <a href="https://examinator.netlify.app/" className='btn btn-primary' target='_blank'>Live
            Demo</a>
           </div>
         </article>
