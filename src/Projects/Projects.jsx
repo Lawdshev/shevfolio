@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {Link} from 'react-router-dom'
 import Project from './project';
 import {data} from './data'
 
 function Projects() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  },[])
   return (
     <div>
         <div className="w-[65%] md:w-[60%] flex items-center justify-between mt-2">
