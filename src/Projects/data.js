@@ -16,12 +16,26 @@ import hq from "./portfolio_img/moneyHq.jpeg";
 import examinator from "../assets/examinator.jpeg";
 import streetFood from "../assets/streetfood.jpeg";
 import accountable from "../assets/accountable.jpeg";
+import casemanager from "../assets/casemanager.png";
+import stamp from "../assets/stamp.png";
 
 export const data = [
   {
+    title: "Case Manager",
+    demo: "https://moj.lawpavilion.com/",
+    github: "N/A",
+    img: casemanager,
+  },
+  {
+    title: "NBA E-stamp",
+    demo: "https://estamp.nigerianbar.org.ng/",
+    github: "N/A",
+    img: stamp,
+  },
+  {
     title: "MoneyHQ",
-    demo: "https://dev.moneyhq.io/",
-    github: "n/a",
+    demo: "https://money-hq-shev.vercel.app/",
+    github: "N/A",
     img: hq,
   },
   {
@@ -37,6 +51,12 @@ export const data = [
     img: streetFood,
   },
   {
+    title: "Approve-it ",
+    demo: "https://approve-it.netlify.app/",
+    github: "N/A",
+    img: approveit,
+  },
+  {
     title: "Accountable",
     demo: "https://accountable-sepia.vercel.app/",
     github: "N/A",
@@ -47,12 +67,6 @@ export const data = [
     demo: "https://super-pavlova-0ce678.netlify.app/",
     github: "N/A",
     img: page,
-  },
-  {
-    title: "Approve-it ",
-    demo: "https://approve-it.netlify.app/",
-    github: "N/A",
-    img: approveit,
   },
   {
     title: "Examinator",
