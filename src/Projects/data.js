@@ -63,14 +63,14 @@ export const data = [
     img: accountable,
   },
   {
-    title: "P&G ",
+    title: "P&G",
     demo: "https://super-pavlova-0ce678.netlify.app/",
     github: "N/A",
     img: page,
   },
   {
     title: "Examinator",
-    demo: "https://examinator.netlify.app/",
+    demo: "https://examinator-ai.vercel.app/",
     github: "N/A",
     img: examinator,
   },
